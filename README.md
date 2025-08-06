@@ -1,8 +1,8 @@
 # MercadoLibre Clone
 
-Un clon full-stack de MercadoLibre que implementa una página de detalle de productos con API RESTful de soporte.
+Este proyecto es un clon full-stack de MercadoLibre que implementa una página de detalle de productos con API RESTful de soporte.
 
-![MercadoLibre Clone](./detalle.png)
+![MercadoLibre Clone](./clon-mercadolibre.jpg)
 
 ## 🚀 Tech Stack
 
