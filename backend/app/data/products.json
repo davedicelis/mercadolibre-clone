@@ -1,0 +1,3583 @@
+{
+    "payment_methods": {
+        "credit_cards": [
+            {
+                "id": "visa",
+                "name": "Visa",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/a5f047d0-9be0-11ec-aad4-c3381f368aaf-m.svg",
+                "type": "credit_card"
+            },
+            {
+                "id": "mastercard",
+                "name": "Mastercard",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/aa2b8f70-5c85-11ec-ae75-df2bef173be2-m.svg",
+                "type": "credit_card"
+            },
+            {
+                "id": "amex",
+                "name": "American Express",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/b2c93a40-f3be-11eb-9984-b7076edb0bb7-m.svg",
+                "type": "credit_card"
+            },
+            {
+                "id": "codensa",
+                "name": "Codensa",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/f1fc5b20-f39b-11eb-a186-1134488bf456-m.svg",
+                "type": "credit_card"
+            }
+        ],
+        "debit_cards": [
+            {
+                "id": "visa_debit",
+                "name": "Visa Débito",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/312238e0-571b-11e8-823a-758d95db88db-m.svg",
+                "type": "debit_card"
+            },
+            {
+                "id": "mastercard_debit",
+                "name": "Mastercard Débito",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/157dce60-571b-11e8-95d8-631c1a9a92a9-m.svg",
+                "type": "debit_card"
+            }
+        ],
+        "cash": [
+            {
+                "id": "efecty",
+                "name": "Efecty",
+                "logo": "https://http2.mlstatic.com/storage/logos-api-admin/e5ee1d00-f39b-11eb-8e0d-6f4af49bf82e-m.svg",
+                "type": "cash"
+            }
+        ]
+    },
+    "products": [
+        {
+            "id": 1001,
+            "title": "Samsung Galaxy A55 5G Dual SIM 256 GB azul oscuro 8 GB RAM",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy A"
+            },
+            "price": 1799900,
+            "original_price": 2127900,
+            "discount_percentage": 15,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 25,
+            "sold_quantity": 847,
+            "rating": 4.5,
+            "reviews_count": 892,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_800035-MLA81367078349_122024-O.webp",
+                    "alt": "Samsung Galaxy A55 5G - Vista frontal"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_621964-MLA81364948571_122024-O.webp",
+                    "alt": "Samsung Galaxy A55 5G - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_777643-MLA75395342152_042024-O.webp",
+                    "alt": "Samsung Galaxy A55 5G - Vista lateral"
+                }
+            ],
+            "description": "Capacidad y eficiencia. Con su potente procesador y 8 GB de RAM, su computadora logrará un alto rendimiento con una alta velocidad de transmisión de contenido y ejecutará varias aplicaciones a la vez sin demoras. Capacidad de almacenamiento limitada. Olvídate de borrar: Con su memoria interna de 256 GB podrás descargar todos los archivos y aplicaciones que necesites, guardar fotos y almacenar series y videos favoritos para reproducirlos cuando quieras.",
+            "features": [
+                {
+                    "name": "Tamaño de la pantalla",
+                    "value": "6.6 pulgadas"
+                },
+                {
+                    "name": "Resolución",
+                    "value": "2340x1080"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "8 GB"
+                },
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Cámara trasera principal",
+                    "value": "50 Mp"
+                },
+                {
+                    "name": "Cámara frontal principal",
+                    "value": "32 Mp"
+                },
+                {
+                    "name": "Con NFC",
+                    "value": "Sí"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "debit_card",
+                    "name": "Tarjeta de débito",
+                    "logo": "💳"
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                },
+                {
+                    "type": "bank_transfer",
+                    "name": "Transferencia bancaria",
+                    "logo": "🏦"
+                }
+            ],
+            "seller": {
+                "id": "samsung_official",
+                "name": "Samsung Official",
+                "reputation": "Platino",
+                "rating": 4.8,
+                "sales_count": 15420,
+                "location": "Buenos Aires",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía oficial",
+            "created_at": "2024-03-10T13:20:00Z",
+            "updated_at": "2024-07-29T14:35:00Z"
+        },
+        {
+            "id": 1002,
+            "title": "Samsung Galaxy M35 5G 6+128GB Dual SIM Teléfonos",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy M"
+            },
+            "price": 1726100,
+            "original_price": 1968000,
+            "discount_percentage": 12,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 15,
+            "sold_quantity": 234,
+            "rating": 4.3,
+            "reviews_count": 156,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_882209-MLU76405989014_052024-O.webp",
+                    "alt": "Samsung Galaxy M35 5G - Vista frontal"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_750539-MLU76405822720_052024-O.webp",
+                    "alt": "Samsung Galaxy M35 5G - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_868502-MLU76405822782_052024-O.webp",
+                    "alt": "Samsung Galaxy M35 5G - Vista lateral"
+                }
+            ],
+            "description": "El Samsung Galaxy M35 5G combina un diseño elegante con un rendimiento excepcional. Equipado con 6GB de RAM y 128GB de almacenamiento interno, este smartphone te ofrece la velocidad que necesitas para todas tus actividades diarias.",
+            "features": [
+                {
+                    "name": "Tamaño de la pantalla",
+                    "value": "6.6 pulgadas"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "6 GB"
+                },
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "128 GB"
+                },
+                {
+                    "name": "Cámara trasera principal",
+                    "value": "64 Mp"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "tech_store_oficial",
+                "name": "TechStore Oficial",
+                "reputation": "Oro",
+                "rating": 4.6,
+                "sales_count": 8932,
+                "location": "São Paulo",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2024-05-20T14:20:00Z",
+            "updated_at": "2024-07-29T09:15:00Z"
+        },
+        {
+            "id": 1003,
+            "title": "Motorola Edge 50 Fusion 5G 256 GB Azul Artico 8 GB Ram",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Motorola",
+                "series": "Edge"
+            },
+            "price": 1717900,
+            "original_price": 2045900,
+            "discount_percentage": 16,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 8,
+            "sold_quantity": 145,
+            "rating": 4.4,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_887084-MLA82048670931_012025-O.webp",
+                    "alt": "Motorola Edge 50 Fusion - Vista frontal"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_619148-MLA82048699947_012025-O.webp",
+                    "alt": "Motorola Edge 50 Fusion - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_750863-MLA81769962092_012025-O.webp",
+                    "alt": "Motorola Edge 50 Fusion - Vista lateral"
+                }
+            ],
+            "description": "El Motorola Edge 50 Fusion 5G te ofrece una experiencia premium con su pantalla curva y rendimiento excepcional. Con 8GB de RAM y 256GB de almacenamiento, tendrás toda la potencia que necesitas.",
+            "features": [
+                {
+                    "name": "Tamaño de la pantalla",
+                    "value": "6.7 pulgadas"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "8 GB"
+                },
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "motorola_store",
+                "name": "Motorola Store",
+                "reputation": "Platino",
+                "rating": 4.9,
+                "sales_count": 12847,
+                "location": "Ciudad de México",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "1-3 días hábiles"
+            },
+            "warranty": "2 años de garantía oficial",
+            "created_at": "2024-06-10T11:45:00Z",
+            "updated_at": "2024-07-28T16:30:00Z"
+        },
+        {
+            "id": 1004,
+            "title": "Samsung Galaxy A16 5G 256GB Negro Terciopelo",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy A"
+            },
+            "price": 1336600,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 32,
+            "sold_quantity": 567,
+            "rating": 4.2,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_715848-MLA82164750739_012025-O.webp",
+                    "alt": "Samsung Galaxy A16 5G - Negro Terciopelo"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_702085-MLA80780261882_112024-O.webp",
+                    "alt": "Samsung Galaxy A16 5G - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_708446-MLA80780261920_112024-O.webp",
+                    "alt": "Samsung Galaxy A16 5G - Vista lateral"
+                }
+            ],
+            "description": "El Samsung Galaxy A16 5G en elegante color Negro Terciopelo combina estilo y funcionalidad. Con 256GB de almacenamiento y conectividad 5G, es perfecto para el uso diario.",
+            "features": [
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                },
+                {
+                    "name": "Color",
+                    "value": "Negro Terciopelo"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "debit_card",
+                    "name": "Tarjeta de débito",
+                    "logo": "💳"
+                }
+            ],
+            "seller": {
+                "id": "galaxy_store_mx",
+                "name": "Galaxy Store MX",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 6789,
+                "location": "Guadalajara",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": false,
+                "type": "Envío",
+                "estimated_days": "4-6 días hábiles",
+                "cost": 15.99
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2024-07-05T08:15:00Z",
+            "updated_at": "2024-07-30T12:00:00Z"
+        },
+        {
+            "id": 1005,
+            "title": "Samsung Galaxy S25 Plus 512G Ultra Teléfono 5G",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy S"
+            },
+            "price": 5653900,
+            "original_price": 6555900,
+            "discount_percentage": 14,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 5,
+            "sold_quantity": 89,
+            "rating": 4.9,
+            "reviews_count": 45,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_868815-MLA83378388362_042025-O.webp",
+                    "alt": "Samsung Galaxy S25 Plus Ultra"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_745321-MLA83670320191_042025-O.webp",
+                    "alt": "Samsung Galaxy S25 Plus - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_715501-MLA81702331016_012025-O.webp",
+                    "alt": "Samsung Galaxy S25 Plus - Vista lateral"
+                }
+            ],
+            "description": "El flagship Samsung Galaxy S25 Plus con 512GB de almacenamiento y las últimas innovaciones en tecnología móvil. Experiencia premium garantizada.",
+            "features": [
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "512 GB"
+                },
+                {
+                    "name": "Serie",
+                    "value": "Galaxy S25"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                },
+                {
+                    "name": "Categoría",
+                    "value": "Flagship"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "premium_tech",
+                "name": "Premium Tech Store",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 25673,
+                "location": "Miami",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía internacional",
+            "created_at": "2024-07-25T16:30:00Z",
+            "updated_at": "2024-07-31T10:45:00Z"
+        },
+        {
+            "id": 1006,
+            "title": "Samsung Galaxy S24 256 GB Crema",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy S"
+            },
+            "price": 3931900,
+            "original_price": 4505900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 12,
+            "sold_quantity": 278,
+            "rating": 4.7,
+            "reviews_count": 167,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_907315-MLU77331982340_072024-O.webp",
+                    "alt": "Samsung Galaxy S24 - Crema"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_956148-MLU74772301281_022024-O.webp",
+                    "alt": "Samsung Galaxy S24 - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_850541-MLU74772301301_022024-O.webp",
+                    "alt": "Samsung Galaxy S24 - Vista lateral"
+                }
+            ],
+            "description": "El Samsung Galaxy S24 en elegante color crema con 256GB de almacenamiento. Tecnología de vanguardia en un diseño sofisticado.",
+            "features": [
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Color",
+                    "value": "Crema"
+                },
+                {
+                    "name": "Serie",
+                    "value": "Galaxy S24"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "electronics_world",
+                "name": "Electronics World",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 11234,
+                "location": "Bogotá",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2024-09-15T14:20:00Z",
+            "updated_at": "2024-07-30T11:30:00Z"
+        },
+        {
+            "id": 1007,
+            "title": "iPhone 15 Pro Max 256GB Titanio Negro",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Apple",
+                "series": "iPhone 15"
+            },
+            "price": 5735900,
+            "original_price": 6145900,
+            "discount_percentage": 7,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 8,
+            "sold_quantity": 156,
+            "rating": 4.8,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_893557-MLU79115488779_092024-O.webp",
+                    "alt": "iPhone 15 Pro Max - Titanio Natural"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_635600-MLU78878295680_092024-O.webp",
+                    "alt": "iPhone 15 Pro Max - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_804524-MLU78878295688_092024-O.webp",
+                    "alt": "iPhone 15 Pro Max - Vista lateral"
+                }
+            ],
+            "description": "El iPhone 15 Pro Max con titanio de grado aeroespacial, chip A17 Pro y cámara de 48MP con zoom óptico 5x. La experiencia iPhone más avanzada.",
+            "features": [
+                {
+                    "name": "Almacenamiento interno",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Material",
+                    "value": "Titanio"
+                },
+                {
+                    "name": "Chip",
+                    "value": "A17 Pro"
+                },
+                {
+                    "name": "Cámara principal",
+                    "value": "48 MP"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "apple_store_oficial",
+                "name": "Apple Store Oficial",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 32145,
+                "location": "Cupertino",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Apple",
+            "created_at": "2024-10-01T09:15:00Z",
+            "updated_at": "2024-10-15T14:30:00Z"
+        },
+        {
+            "id": 1008,
+            "title": "Xiaomi Redmi Note 13 Pro 5G 256GB Verde Bosque",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Xiaomi",
+                "series": "Redmi Note"
+            },
+            "price": 1184900,
+            "original_price": 1348900,
+            "discount_percentage": 12,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 45,
+            "sold_quantity": 1234,
+            "rating": 4.4,
+            "reviews_count": 567,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_713456-MLU78389872348_082024-O.webp",
+                    "alt": "Xiaomi Redmi Note 13 Pro - Verde Bosque"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_891639-MLU78621307319_082024-O.webp",
+                    "alt": "Xiaomi Redmi Note 13 Pro - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_600960-MLU78620873973_082024-O.webp",
+                    "alt": "Xiaomi Redmi Note 13 Pro - Vista lateral"
+                }
+            ],
+            "description": "El Xiaomi Redmi Note 13 Pro 5G en Verde Bosque combina un diseño premium con rendimiento excepcional. Pantalla AMOLED de 120Hz y cámara de 200MP.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.67\" AMOLED 120Hz"
+                },
+                {
+                    "name": "Cámara principal",
+                    "value": "200 MP"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "5G"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "debit_card",
+                    "name": "Tarjeta de débito",
+                    "logo": "💳"
+                }
+            ],
+            "seller": {
+                "id": "xiaomi_oficial_mx",
+                "name": "Xiaomi México Oficial",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 18976,
+                "location": "Ciudad de México",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-3 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2024-11-01T10:30:00Z",
+            "updated_at": "2024-11-10T16:45:00Z"
+        },
+        {
+            "id": 1009,
+            "title": "Huawei P60 Pro 256GB Rocío Perla",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Huawei",
+                "series": "P60"
+            },
+            "price": 3685900,
+            "original_price": 4505900,
+            "discount_percentage": 18,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 12,
+            "sold_quantity": 98,
+            "rating": 4.6,
+            "reviews_count": 45,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_641941-MLA74807971061_022024-O.webp",
+                    "alt": "Huawei P60 Pro - Rocío Perla"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_853859-MLA74676486710_022024-O.webp",
+                    "alt": "Huawei P60 Pro - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_903471-MLA74676487444_022024-O.webp",
+                    "alt": "Huawei P60 Pro - Vista lateral"
+                }
+            ],
+            "description": "El Huawei P60 Pro en elegante color Rocío Perla. Sistema de cámaras Leica ultra avanzado y diseño premium que cautiva.",
+            "features": [
+                {
+                    "name": "Sistema de cámaras",
+                    "value": "Leica Triple"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Color",
+                    "value": "Rocío Perla"
+                },
+                {
+                    "name": "Pantalla",
+                    "value": "6.67\" OLED"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "huawei_store_latam",
+                "name": "Huawei Store LATAM",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 7654,
+                "location": "Lima",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "2 años de garantía",
+            "created_at": "2024-12-01T11:20:00Z",
+            "updated_at": "2024-12-10T15:10:00Z"
+        },
+        {
+            "id": 1010,
+            "title": "Google Pixel 8 Pro 256GB Negro Bahía",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Google",
+                "series": "Pixel 8"
+            },
+            "price": 3275900,
+            "original_price": 3685900,
+            "discount_percentage": 11,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 18,
+            "sold_quantity": 234,
+            "rating": 4.7,
+            "reviews_count": 123,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_984389-MLA74807971605_022024-O.webp",
+                    "alt": "Google Pixel 8 Pro - Azul Bahía"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_815980-MLA72598570782_112023-O.webp",
+                    "alt": "Google Pixel 8 Pro - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_888989-MLA74781934209_022024-O.webp",
+                    "alt": "Google Pixel 8 Pro - Vista lateral"
+                }
+            ],
+            "description": "El Google Pixel 8 Pro con inteligencia artificial avanzada, chip Tensor G3 y cámaras profesionales. Android puro y actualizaciones garantizadas.",
+            "features": [
+                {
+                    "name": "Chip",
+                    "value": "Tensor G3"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "IA",
+                    "value": "Google AI integrada"
+                },
+                {
+                    "name": "Android",
+                    "value": "Android 14 puro"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                },
+                {
+                    "type": "google_pay",
+                    "name": "Google Pay",
+                    "logo": "📱"
+                }
+            ],
+            "seller": {
+                "id": "google_store_oficial",
+                "name": "Google Store Oficial",
+                "reputation": "Diamante",
+                "rating": 4.8,
+                "sales_count": 15432,
+                "location": "Mountain View",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-3 días hábiles"
+            },
+            "warranty": "2 años de garantía Google",
+            "created_at": "2025-01-01T12:00:00Z",
+            "updated_at": "2025-01-15T09:30:00Z"
+        },
+        {
+            "id": 1011,
+            "title": "OnePlus 12 5G 512GB Verde Esmeralda",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "OnePlus",
+                "series": "OnePlus 12"
+            },
+            "price": 3070900,
+            "original_price": 3480900,
+            "discount_percentage": 12,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 22,
+            "sold_quantity": 167,
+            "rating": 4.6,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_904348-CBT84424490447_052025-O.webp",
+                    "alt": "OnePlus 12 - Verde Esmeralda"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_906749-CBT84424361917_052025-O.webp",
+                    "alt": "OnePlus 12 - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_966834-CBT84424302377_052025-O.webp",
+                    "alt": "OnePlus 12 - Vista lateral"
+                }
+            ],
+            "description": "El OnePlus 12 en Verde Esmeralda combina velocidad excepcional con diseño premium. Snapdragon 8 Gen 3 y carga rápida de 100W.",
+            "features": [
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 3"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "512 GB"
+                },
+                {
+                    "name": "Carga rápida",
+                    "value": "100W SuperVOOC"
+                },
+                {
+                    "name": "Pantalla",
+                    "value": "6.82\" AMOLED 120Hz"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 15
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "oneplus_store_latam",
+                "name": "OnePlus Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.6,
+                "sales_count": 9876,
+                "location": "Buenos Aires",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2025-02-01T13:45:00Z",
+            "updated_at": "2025-02-10T11:20:00Z"
+        },
+        {
+            "id": 1012,
+            "title": "Sony Xperia 1 V 256GB Negro Espejo",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Sony",
+                "series": "Xperia 1"
+            },
+            "price": 4915900,
+            "original_price": 5530900,
+            "discount_percentage": 11,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 7,
+            "sold_quantity": 45,
+            "rating": 4.8,
+            "reviews_count": 28,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_986933-MLA50260115681_062022-O.webp",
+                    "alt": "Sony Xperia 1 V - Negro Espejo"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_821863-MLU75320921037_032024-O.webp",
+                    "alt": "Sony Xperia 1 V - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_711041-MLA50260204381_062022-O.webp",
+                    "alt": "Sony Xperia 1 V - Vista lateral"
+                }
+            ],
+            "description": "El Sony Xperia 1 V combina la tecnología de cámaras Alpha con una pantalla 4K HDR OLED. Experiencia cinematográfica en tus manos.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.5\" 4K HDR OLED"
+                },
+                {
+                    "name": "Cámaras",
+                    "value": "Tecnología Alpha"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Hi-Res Audio"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "sony_electronics_oficial",
+                "name": "Sony Electronics Oficial",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 5678,
+                "location": "Tokio",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío internacional gratis",
+                "estimated_days": "5-7 días hábiles"
+            },
+            "warranty": "2 años de garantía Sony",
+            "created_at": "2025-03-01T14:15:00Z",
+            "updated_at": "2025-03-10T10:45:00Z"
+        },
+        {
+            "id": 1013,
+            "title": "Samsung Galaxy Z Fold6 5G 512GB Azul Marino",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy Z"
+            },
+            "price": 7785900,
+            "original_price": 8605900,
+            "discount_percentage": 10,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 3,
+            "sold_quantity": 67,
+            "rating": 4.9,
+            "reviews_count": 34,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_601617-CBT87230709558_072025-O.webp",
+                    "alt": "Samsung Galaxy Z Fold6 - Azul Marino"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_731187-CBT87230739466_072025-O.webp",
+                    "alt": "Samsung Galaxy Z Fold6 - Desplegado"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_639463-CBT87557859333_072025-O.webp",
+                    "alt": "Samsung Galaxy Z Fold6 - Vista lateral"
+                }
+            ],
+            "description": "El revolucionario Samsung Galaxy Z Fold6 con pantalla plegable de 7.6 pulgadas. La experiencia multitarea más avanzada en un smartphone.",
+            "features": [
+                {
+                    "name": "Pantalla principal",
+                    "value": "7.6\" Dynamic AMOLED"
+                },
+                {
+                    "name": "Pantalla frontal",
+                    "value": "6.3\" Dynamic AMOLED"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "512 GB"
+                },
+                {
+                    "name": "Tipo",
+                    "value": "Plegable"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 36
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "samsung_premium",
+                "name": "Samsung Premium Store",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 23456,
+                "location": "Seúl",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío VIP gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía premium",
+            "created_at": "2025-04-01T15:30:00Z",
+            "updated_at": "2025-04-10T12:15:00Z"
+        },
+        {
+            "id": 1014,
+            "title": "Realme GT 6 Pro 5G 256GB Blanco Lunar",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Realme",
+                "series": "GT"
+            },
+            "price": 1840900,
+            "original_price": 2168900,
+            "discount_percentage": 15,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 28,
+            "sold_quantity": 389,
+            "rating": 4.5,
+            "reviews_count": 178,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_885884-MLU77728986949_072024-O.webp",
+                    "alt": "Realme GT 6 Pro - Blanco Lunar"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_936310-MLA75613731537_042024-O.webp",
+                    "alt": "Realme GT 6 Pro - Vista trasera"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_762344-MLA75719506980_042024-O.webp",
+                    "alt": "Realme GT 6 Pro - Vista lateral"
+                }
+            ],
+            "description": "El Realme GT 6 Pro combina rendimiento gaming con diseño elegante. Snapdragon 8s Gen 3 y pantalla curva de 120Hz para la mejor experiencia.",
+            "features": [
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8s Gen 3"
+                },
+                {
+                    "name": "Pantalla",
+                    "value": "6.78\" AMOLED 120Hz"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Gaming",
+                    "value": "Optimizado para juegos"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "debit_card",
+                    "name": "Tarjeta de débito",
+                    "logo": "💳"
+                }
+            ],
+            "seller": {
+                "id": "realme_oficial_co",
+                "name": "Realme Colombia Oficial",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 12678,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2025-05-01T16:45:00Z",
+            "updated_at": "2025-05-10T13:20:00Z"
+        },
+        {
+            "id": 1015,
+            "title": "Nothing Phone (2a) 5G 256GB Azul Transparente",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Nothing",
+                "series": "Phone"
+            },
+            "price": 1553900,
+            "original_price": 1758900,
+            "discount_percentage": 12,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 15,
+            "sold_quantity": 234,
+            "rating": 4.6,
+            "reviews_count": 98,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_676234-MLA85338913814_062025-O.webp",
+                    "alt": "Nothing Phone (2a) - Azul Transparente"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_801187-MLA76377665424_052024-O.webp",
+                    "alt": "Nothing Phone (2a) - Vista trasera transparente"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_985898-MLA76535913518_052024-O.webp",
+                    "alt": "Nothing Phone (2a) - Glyph Interface"
+                }
+            ],
+            "description": "El Nothing Phone (2a) con su icónico diseño transparente y Glyph Interface. Una experiencia única que combina innovación con Android puro.",
+            "features": [
+                {
+                    "name": "Diseño",
+                    "value": "Transparente único"
+                },
+                {
+                    "name": "Glyph Interface",
+                    "value": "Luces LED personalizables"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                },
+                {
+                    "name": "Android",
+                    "value": "Nothing OS 2.5"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "nothing_store_latam",
+                "name": "Nothing Store LATAM",
+                "reputation": "Plata",
+                "rating": 4.3,
+                "sales_count": 3456,
+                "location": "Londres",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío internacional gratis",
+                "estimated_days": "7-10 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2025-06-01T17:30:00Z",
+            "updated_at": "2025-06-10T14:45:00Z"
+        },
+        {
+            "id": 1016,
+            "title": "Asus ROG Phone 8 Pro Gaming 1TB Negro Phantom",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Asus",
+                "series": "ROG Phone"
+            },
+            "price": 5325900,
+            "original_price": 6145900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 6,
+            "sold_quantity": 78,
+            "rating": 4.8,
+            "reviews_count": 45,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_881634-MCO76860600956_062024-O.webp",
+                    "alt": "Asus ROG Phone 8 Pro - Negro Phantom"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_868742-MCO77068976107_062024-O.webp",
+                    "alt": "Asus ROG Phone 8 Pro - RGB Gaming"
+                },
+                {
+                    "id": "img3",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_614723-MCO76861195750_062024-O.webp",
+                    "alt": "Asus ROG Phone 8 Pro - Accesorios gaming"
+                }
+            ],
+            "description": "El Asus ROG Phone 8 Pro es la máquina gaming definitiva. Con 1TB de almacenamiento, refrigeración avanzada y controles táctiles ultrasónicos.",
+            "features": [
+                {
+                    "name": "Almacenamiento",
+                    "value": "1 TB"
+                },
+                {
+                    "name": "Refrigeración",
+                    "value": "GameCool 8 avanzada"
+                },
+                {
+                    "name": "Gaming",
+                    "value": "165Hz refresh rate"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Speakers duales frontales"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                },
+                {
+                    "type": "mercado_pago",
+                    "name": "Mercado Pago",
+                    "logo": "💰"
+                }
+            ],
+            "seller": {
+                "id": "asus_gaming_store",
+                "name": "Asus Gaming Store",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 8765,
+                "location": "Taipéi",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gaming express",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "2 años de garantía gaming",
+            "created_at": "2025-07-01T18:15:00Z",
+            "updated_at": "2025-07-10T15:30:00Z"
+        },
+        {
+            "id": 1017,
+            "title": "Samsung Galaxy Buds2 Pro Auriculares Inalámbricos Noise Cancelling",
+            "category": {
+                "main": "Electrónicos, Audio y Video",
+                "sub": "Auriculares",
+                "brand": "Samsung",
+                "series": "Galaxy Buds"
+            },
+            "price": 610900,
+            "original_price": 733900,
+            "discount_percentage": 17,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 45,
+            "sold_quantity": 1234,
+            "rating": 4.6,
+            "reviews_count": 567,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_919839-CBT82746281769_022025-O.webp",
+                    "alt": "Samsung Galaxy Buds2 Pro"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_787161-CBT82746389903_022025-O.webp",
+                    "alt": "Samsung Galaxy Buds2 Pro - Estuche"
+                }
+            ],
+            "description": "Los Samsung Galaxy Buds2 Pro ofrecen cancelación activa de ruido inteligente y audio Hi-Fi de 360°. Perfectos para acompañar tu Galaxy.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "Activa inteligente"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "Bluetooth 5.3"
+                },
+                {
+                    "name": "Batería",
+                    "value": "8h + 29h con estuche"
+                },
+                {
+                    "name": "Resistencia",
+                    "value": "IPX7"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "samsung_official",
+                "name": "Samsung Official",
+                "reputation": "Platino",
+                "rating": 4.8,
+                "sales_count": 15420,
+                "location": "Buenos Aires",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía oficial",
+            "created_at": "2025-08-01T09:30:00Z",
+            "updated_at": "2025-08-01T14:20:00Z"
+        },
+        {
+            "id": 1018,
+            "title": "AirPods Pro 2da Generación con Estuche de Carga MagSafe",
+            "category": {
+                "main": "Electrónicos, Audio y Video",
+                "sub": "Auriculares",
+                "brand": "Apple",
+                "series": "AirPods Pro"
+            },
+            "price": 1020900,
+            "original_price": 1143900,
+            "discount_percentage": 11,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 32,
+            "sold_quantity": 890,
+            "rating": 4.8,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_779146-MLA53778959612_022023-O.webp",
+                    "alt": "AirPods Pro 2da Generación"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_888984-MLA53778965282_022023-O.webp",
+                    "alt": "AirPods Pro - Estuche MagSafe"
+                }
+            ],
+            "description": "Los AirPods Pro de 2da generación con chip H2 ofrecen cancelación activa de ruido de hasta 2x mejor y audio espacial personalizado.",
+            "features": [
+                {
+                    "name": "Chip",
+                    "value": "H2 de Apple"
+                },
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "Activa avanzada"
+                },
+                {
+                    "name": "Audio espacial",
+                    "value": "Personalizado"
+                },
+                {
+                    "name": "Batería",
+                    "value": "6h + 30h con estuche"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "apple_store_oficial",
+                "name": "Apple Store Oficial",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 32145,
+                "location": "Cupertino",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Apple",
+            "created_at": "2025-09-01T10:15:00Z",
+            "updated_at": "2025-09-01T16:45:00Z"
+        },
+        {
+            "id": 1019,
+            "title": "Google Nest Hub 2da Gen Pantalla Inteligente con Google Assistant",
+            "category": {
+                "main": "Electrónicos, Audio y Video",
+                "sub": "Smart Home",
+                "brand": "Google",
+                "series": "Nest Hub"
+            },
+            "price": 405900,
+            "original_price": 528900,
+            "discount_percentage": 23,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 28,
+            "sold_quantity": 445,
+            "rating": 4.5,
+            "reviews_count": 178,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_928130-MLA51558996328_092022-O.webp",
+                    "alt": "Google Nest Hub 2da Gen"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_639415-MLU74226066083_012024-O.webp",
+                    "alt": "Google Nest Hub - Vista lateral"
+                }
+            ],
+            "description": "El Google Nest Hub de 2da generación con pantalla táctil de 7 pulgadas, Google Assistant integrado y seguimiento del sueño.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "7 pulgadas táctil"
+                },
+                {
+                    "name": "Asistente",
+                    "value": "Google Assistant"
+                },
+                {
+                    "name": "Seguimiento sueño",
+                    "value": "Soli Motion Sense"
+                },
+                {
+                    "name": "Smart Home",
+                    "value": "Hub de control"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "google_store_oficial",
+                "name": "Google Store Oficial",
+                "reputation": "Diamante",
+                "rating": 4.8,
+                "sales_count": 15432,
+                "location": "Mountain View",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-3 días hábiles"
+            },
+            "warranty": "2 años de garantía Google",
+            "created_at": "2025-10-01T11:30:00Z",
+            "updated_at": "2025-10-01T17:15:00Z"
+        },
+        {
+            "id": 1020,
+            "title": "Samsung Galaxy Tab S9 11 pulgadas 256GB Wi-Fi Tablet Android",
+            "category": {
+                "main": "Computación",
+                "sub": "Tablets",
+                "brand": "Samsung",
+                "series": "Galaxy Tab S"
+            },
+            "price": 2660900,
+            "original_price": 2988900,
+            "discount_percentage": 11,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 18,
+            "sold_quantity": 234,
+            "rating": 4.7,
+            "reviews_count": 156,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_812833-MLU73573581342_122023-O.webp",
+                    "alt": "Samsung Galaxy Tab S9"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_902741-MLU73573454674_122023-O.webp",
+                    "alt": "Samsung Galaxy Tab S9 - S Pen"
+                }
+            ],
+            "description": "La Samsung Galaxy Tab S9 con pantalla Dynamic AMOLED 2X de 11 pulgadas, S Pen incluido y rendimiento premium para trabajo y entretenimiento.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "11\" Dynamic AMOLED 2X"
+                },
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 2"
+                },
+                {
+                    "name": "S Pen",
+                    "value": "Incluido"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "samsung_official",
+                "name": "Samsung Official",
+                "reputation": "Platino",
+                "rating": 4.8,
+                "sales_count": 15420,
+                "location": "Buenos Aires",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía oficial",
+            "created_at": "2025-11-01T12:45:00Z",
+            "updated_at": "2025-11-01T18:30:00Z"
+        },
+        {
+            "id": 1021,
+            "title": "MacBook Air M2 13 pulgadas 256GB SSD Chip M2 Laptop",
+            "category": {
+                "main": "Computación",
+                "sub": "Laptops",
+                "brand": "Apple",
+                "series": "MacBook Air"
+            },
+            "price": 4915900,
+            "original_price": 5325900,
+            "discount_percentage": 8,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 12,
+            "sold_quantity": 167,
+            "rating": 4.9,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_781541-MLA51356417291_082022-O.webp",
+                    "alt": "MacBook Air M2"
+                },
+                {
+                    "id": "img2",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_703657-MLA51356417290_082022-O.webp",
+                    "alt": "MacBook Air M2 - Vista lateral"
+                }
+            ],
+            "description": "La MacBook Air con chip M2 rediseñada. Ultradelgada, ultraliviana y extraordinariamente potente con pantalla Liquid Retina de 13.6 pulgadas.",
+            "features": [
+                {
+                    "name": "Chip",
+                    "value": "Apple M2"
+                },
+                {
+                    "name": "Pantalla",
+                    "value": "13.6\" Liquid Retina"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB SSD"
+                },
+                {
+                    "name": "Batería",
+                    "value": "Hasta 18 horas"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "apple_store_oficial",
+                "name": "Apple Store Oficial",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 32145,
+                "location": "Cupertino",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Apple",
+            "created_at": "2025-12-01T13:20:00Z",
+            "updated_at": "2025-12-01T19:45:00Z"
+        },
+        {
+            "id": 1022,
+            "title": "Samsung Galaxy A34 5G 128GB Violeta",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy A"
+            },
+            "price": 1348900,
+            "original_price": 1635900,
+            "discount_percentage": 18,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 15,
+            "sold_quantity": 654,
+            "rating": 4.3,
+            "reviews_count": 445,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_720280-MLU77645332843_072024-O.webp",
+                    "alt": "Samsung Galaxy A34 5G"
+                }
+            ],
+            "description": "Samsung Galaxy A34 5G con pantalla de 6.6 pulgadas y cámara triple de 48MP.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.6 pulgadas"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "6 GB"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "128 GB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "techstore_oficial",
+                "name": "TechStore Oficial",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 8520,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-3 días hábiles"
+            },
+            "warranty": "1 año de garantía",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1023,
+            "title": "Cargador Samsung 25W USB-C Original",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Accesorios para Celulares",
+                "brand": "Samsung",
+                "series": "Accesorios"
+            },
+            "price": 143500,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 50,
+            "sold_quantity": 1200,
+            "rating": 4.7,
+            "reviews_count": 890,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_840530-MCO87084585059_072025-O.webp",
+                    "alt": "Cargador Samsung 25W"
+                }
+            ],
+            "description": "Cargador rápido original Samsung de 25W con cable USB-C incluido.",
+            "features": [
+                {
+                    "name": "Potencia",
+                    "value": "25W"
+                },
+                {
+                    "name": "Tipo",
+                    "value": "USB-C"
+                },
+                {
+                    "name": "Cable incluido",
+                    "value": "Sí"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 6
+                }
+            ],
+            "seller": {
+                "id": "techstore_oficial",
+                "name": "TechStore Oficial",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 8520,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-3 días hábiles"
+            },
+            "warranty": "6 meses de garantía",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1024,
+            "title": "Motorola Edge 40 Neo 5G 256GB Viva Magenta",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Motorola",
+                "series": "Edge"
+            },
+            "price": 1430900,
+            "original_price": 1717900,
+            "discount_percentage": 17,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 20,
+            "sold_quantity": 342,
+            "rating": 4.4,
+            "reviews_count": 287,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_871507-MCO84326580366_052025-O.webp",
+                    "alt": "Motorola Edge 40 Neo"
+                }
+            ],
+            "description": "Motorola Edge 40 Neo con pantalla curva pOLED de 6.55 pulgadas y cámara de 50MP.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.55 pulgadas pOLED"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "8 GB"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "256 GB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "motorola_store",
+                "name": "Motorola Store",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 12450,
+                "location": "Buenos Aires",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía Motorola",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1025,
+            "title": "Motorola Buds ANC Auriculares Inalámbricos",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Motorola",
+                "series": "Buds"
+            },
+            "price": 364900,
+            "original_price": 487900,
+            "discount_percentage": 25,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 35,
+            "sold_quantity": 578,
+            "rating": 4.2,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_950385-MLA82442818841_022025-O.webp",
+                    "alt": "Motorola Buds ANC"
+                }
+            ],
+            "description": "Auriculares inalámbricos Motorola Buds con cancelación activa de ruido.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC"
+                },
+                {
+                    "name": "Batería",
+                    "value": "30 horas"
+                },
+                {
+                    "name": "Resistencia",
+                    "value": "IPX4"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "motorola_store",
+                "name": "Motorola Store",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 12450,
+                "location": "Buenos Aires",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía Motorola",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1026,
+            "title": "Samsung Galaxy A25 5G 128GB Azul Hielo",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy A"
+            },
+            "price": 1143900,
+            "original_price": 1348900,
+            "discount_percentage": 15,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 25,
+            "sold_quantity": 890,
+            "rating": 4.3,
+            "reviews_count": 567,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_821084-CBT86985388656_072025-O.webp",
+                    "alt": "Samsung Galaxy A25 5G"
+                }
+            ],
+            "description": "Samsung Galaxy A25 5G con pantalla Super AMOLED de 6.5 pulgadas y cámara triple.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.5 pulgadas Super AMOLED"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "6 GB"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "128 GB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "galaxy_store_mx",
+                "name": "Galaxy Store MX",
+                "reputation": "Oro",
+                "rating": 4.3,
+                "sales_count": 6780,
+                "location": "Ciudad de México",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía Samsung",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1027,
+            "title": "Funda Samsung Galaxy A16 Transparente",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Accesorios para Celulares",
+                "brand": "Samsung",
+                "series": "Accesorios"
+            },
+            "price": 61500,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 100,
+            "sold_quantity": 2340,
+            "rating": 4.1,
+            "reviews_count": 456,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_914135-CBT80965531288_122024-O.webp",
+                    "alt": "Funda Samsung Galaxy A16"
+                }
+            ],
+            "description": "Funda transparente oficial para Samsung Galaxy A16 con protección anti-impactos.",
+            "features": [
+                {
+                    "name": "Material",
+                    "value": "TPU transparente"
+                },
+                {
+                    "name": "Protección",
+                    "value": "Anti-impactos"
+                },
+                {
+                    "name": "Compatibilidad",
+                    "value": "Galaxy A16"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 3
+                }
+            ],
+            "seller": {
+                "id": "galaxy_store_mx",
+                "name": "Galaxy Store MX",
+                "reputation": "Oro",
+                "rating": 4.3,
+                "sales_count": 6780,
+                "location": "Ciudad de México",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "3 meses de garantía",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1028,
+            "title": "Xiaomi Redmi Buds 4 Pro Auriculares TWS",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Xiaomi",
+                "series": "Redmi Buds"
+            },
+            "price": 323900,
+            "original_price": 405900,
+            "discount_percentage": 20,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 40,
+            "sold_quantity": 678,
+            "rating": 4.4,
+            "reviews_count": 345,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_773127-MLA52650286550_112022-O.webp",
+                    "alt": "Xiaomi Redmi Buds 4 Pro"
+                }
+            ],
+            "description": "Auriculares inalámbricos Xiaomi Redmi Buds 4 Pro con cancelación de ruido y Hi-Res Audio.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC 35dB"
+                },
+                {
+                    "name": "Batería",
+                    "value": "36 horas"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Hi-Res certificado"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "xiaomi_mexico_oficial",
+                "name": "Xiaomi México Oficial",
+                "reputation": "Platino",
+                "rating": 4.6,
+                "sales_count": 18450,
+                "location": "Ciudad de México",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Xiaomi",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1029,
+            "title": "Xiaomi Mi Band 8 Pulsera Inteligente",
+            "category": {
+                "main": "Wearables",
+                "sub": "Smartwatch y Fitness",
+                "brand": "Xiaomi",
+                "series": "Mi Band"
+            },
+            "price": 184500,
+            "original_price": 225500,
+            "discount_percentage": 18,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 60,
+            "sold_quantity": 1234,
+            "rating": 4.5,
+            "reviews_count": 789,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_792922-CBT71294089130_082023-O.webp",
+                    "alt": "Xiaomi Mi Band 8"
+                }
+            ],
+            "description": "Pulsera inteligente Xiaomi Mi Band 8 con pantalla AMOLED de 1.62 pulgadas y 150+ modos deportivos.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "1.62\" AMOLED"
+                },
+                {
+                    "name": "Batería",
+                    "value": "16 días"
+                },
+                {
+                    "name": "Modos deportivos",
+                    "value": "150+"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 6
+                }
+            ],
+            "seller": {
+                "id": "xiaomi_mexico_oficial",
+                "name": "Xiaomi México Oficial",
+                "reputation": "Platino",
+                "rating": 4.6,
+                "sales_count": 18450,
+                "location": "Ciudad de México",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Xiaomi",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1030,
+            "title": "Google Pixel Buds Pro 2 Auriculares Inalámbricos",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Google",
+                "series": "Pixel Buds"
+            },
+            "price": 815900,
+            "original_price": 938900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 25,
+            "sold_quantity": 456,
+            "rating": 4.5,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_604446-CBT82426143273_022025-O.webp",
+                    "alt": "Google Pixel Buds Pro 2"
+                }
+            ],
+            "description": "Auriculares inalámbricos Google Pixel Buds Pro 2 con cancelación activa de ruido mejorada.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC avanzado"
+                },
+                {
+                    "name": "Batería",
+                    "value": "31 horas"
+                },
+                {
+                    "name": "Audio espacial",
+                    "value": "Sí"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "google_store_oficial",
+                "name": "Google Store Oficial",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 24560,
+                "location": "Mountain View",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Google",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1031,
+            "title": "Samsung Galaxy S24 Ultra 1TB Titanium Violet",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy S"
+            },
+            "price": 5325900,
+            "original_price": 5735900,
+            "discount_percentage": 7,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 5,
+            "sold_quantity": 89,
+            "rating": 4.8,
+            "reviews_count": 45,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_887884-MLA74322753760_022024-O.webp",
+                    "alt": "Samsung Galaxy S24 Ultra"
+                }
+            ],
+            "description": "Samsung Galaxy S24 Ultra con S Pen integrado y cámara de 200MP con zoom 100x.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.8\" Dynamic AMOLED 2X"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "12 GB"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "1 TB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "premium_tech_store",
+                "name": "Premium Tech Store",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 3240,
+                "location": "Miami",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía premium",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1032,
+            "title": "Apple Watch Ultra 2 49mm GPS + Cellular",
+            "category": {
+                "main": "Wearables",
+                "sub": "Smartwatch y Fitness",
+                "brand": "Apple",
+                "series": "Apple Watch"
+            },
+            "price": 3275900,
+            "original_price": 3480900,
+            "discount_percentage": 6,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 8,
+            "sold_quantity": 167,
+            "rating": 4.7,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_939992-MLA80688144917_112024-O.webp",
+                    "alt": "Apple Watch Ultra 2"
+                }
+            ],
+            "description": "Apple Watch Ultra 2 con caja de titanio y resistencia extrema para deportes de aventura.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "49mm Retina"
+                },
+                {
+                    "name": "Conectividad",
+                    "value": "GPS + Cellular"
+                },
+                {
+                    "name": "Resistencia",
+                    "value": "100m agua"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "premium_tech_store",
+                "name": "Premium Tech Store",
+                "reputation": "Diamante",
+                "rating": 4.9,
+                "sales_count": 3240,
+                "location": "Miami",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía premium",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1033,
+            "title": "Samsung Galaxy Watch6 Classic 47mm Bluetooth",
+            "category": {
+                "main": "Wearables",
+                "sub": "Smartwatch y Fitness",
+                "brand": "Samsung",
+                "series": "Galaxy Watch"
+            },
+            "price": 1553900,
+            "original_price": 1758900,
+            "discount_percentage": 12,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 12,
+            "sold_quantity": 234,
+            "rating": 4.4,
+            "reviews_count": 156,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_613159-MLA88955232893_072025-O.webp",
+                    "alt": "Samsung Galaxy Watch6 Classic"
+                }
+            ],
+            "description": "Samsung Galaxy Watch6 Classic con bisel giratorio y monitoreo avanzado de salud.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "47mm Super AMOLED"
+                },
+                {
+                    "name": "Batería",
+                    "value": "40 horas"
+                },
+                {
+                    "name": "Sensores",
+                    "value": "ECG, BioActive"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "electronics_world",
+                "name": "Electronics World",
+                "reputation": "Oro",
+                "rating": 4.3,
+                "sales_count": 9870,
+                "location": "São Paulo",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía Samsung",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1034,
+            "title": "Cargador Inalámbrico Samsung 15W Fast Charge",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Accesorios para Celulares",
+                "brand": "Samsung",
+                "series": "Accesorios"
+            },
+            "price": 200900,
+            "original_price": 241900,
+            "discount_percentage": 17,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 45,
+            "sold_quantity": 678,
+            "rating": 4.2,
+            "reviews_count": 345,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_721089-MLA84549610654_052025-O.webp",
+                    "alt": "Cargador Inalámbrico Samsung"
+                }
+            ],
+            "description": "Cargador inalámbrico Samsung de 15W con carga rápida para Galaxy y dispositivos compatibles.",
+            "features": [
+                {
+                    "name": "Potencia",
+                    "value": "15W"
+                },
+                {
+                    "name": "Compatibilidad",
+                    "value": "Qi estándar"
+                },
+                {
+                    "name": "LED indicador",
+                    "value": "Sí"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 6
+                }
+            ],
+            "seller": {
+                "id": "electronics_world",
+                "name": "Electronics World",
+                "reputation": "Oro",
+                "rating": 4.3,
+                "sales_count": 9870,
+                "location": "São Paulo",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "6 meses de garantía",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1035,
+            "title": "Huawei MatePad 11.5 Tablet 128GB Wi-Fi",
+            "category": {
+                "main": "Computación",
+                "sub": "Tablets",
+                "brand": "Huawei",
+                "series": "MatePad"
+            },
+            "price": 1430900,
+            "original_price": 1635900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 15,
+            "sold_quantity": 234,
+            "rating": 4.3,
+            "reviews_count": 123,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_810988-MLA83941682523_042025-O.webp",
+                    "alt": "Huawei MatePad 11.5"
+                }
+            ],
+            "description": "Tablet Huawei MatePad 11.5 con pantalla FullView de 120Hz y procesador Kirin 9000E.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "11.5\" 120Hz"
+                },
+                {
+                    "name": "Procesador",
+                    "value": "Kirin 9000E"
+                },
+                {
+                    "name": "Almacenamiento",
+                    "value": "128 GB"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "huawei_store_latam",
+                "name": "Huawei Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 11230,
+                "location": "Lima",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía Huawei",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1036,
+            "title": "Huawei FreeBuds Pro 3 Auriculares Inalámbricos",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Huawei",
+                "series": "FreeBuds"
+            },
+            "price": 692900,
+            "original_price": 815900,
+            "discount_percentage": 15,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 30,
+            "sold_quantity": 456,
+            "rating": 4.2,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_817690-MLA84824248533_052025-O.webp",
+                    "alt": "Huawei FreeBuds Pro 3"
+                }
+            ],
+            "description": "Auriculares inalámbricos Huawei FreeBuds Pro 3 con cancelación inteligente de ruido.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC inteligente"
+                },
+                {
+                    "name": "Batería",
+                    "value": "30 horas"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Hi-Res Wireless"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "huawei_store_latam",
+                "name": "Huawei Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 11230,
+                "location": "Lima",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía Huawei",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1037,
+            "title": "OnePlus 11 5G 256GB Titan Black",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "OnePlus",
+                "series": "OnePlus 11"
+            },
+            "price": 2660900,
+            "original_price": 2865900,
+            "discount_percentage": 7,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 18,
+            "sold_quantity": 345,
+            "rating": 4.6,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_936342-MCO54850228053_042023-O.webp",
+                    "alt": "OnePlus 11 5G"
+                }
+            ],
+            "description": "OnePlus 11 5G con Snapdragon 8 Gen 2 y carga súper rápida de 100W.",
+            "features": [
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 2"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "12 GB"
+                },
+                {
+                    "name": "Carga rápida",
+                    "value": "100W SuperVOOC"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "oneplus_store_latam",
+                "name": "OnePlus Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 8760,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía OnePlus",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1038,
+            "title": "OnePlus Buds Pro 2 Auriculares Inalámbricos",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "OnePlus",
+                "series": "Buds Pro"
+            },
+            "price": 528900,
+            "original_price": 610900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 25,
+            "sold_quantity": 567,
+            "rating": 4.3,
+            "reviews_count": 189,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_Q_NP_629159-CBT83519926085_042025-R.webp",
+                    "alt": "OnePlus Buds Pro 2"
+                }
+            ],
+            "description": "Auriculares inalámbricos OnePlus Buds Pro 2 con cancelación adaptiva de ruido.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC adaptivo"
+                },
+                {
+                    "name": "Batería",
+                    "value": "39 horas"
+                },
+                {
+                    "name": "Audio espacial",
+                    "value": "Dolby Atmos"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "oneplus_store_latam",
+                "name": "OnePlus Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 8760,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-4 días hábiles"
+            },
+            "warranty": "1 año de garantía OnePlus",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1039,
+            "title": "Sony Xperia 5 V 256GB Forest Green",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Sony",
+                "series": "Xperia 5"
+            },
+            "price": 3685900,
+            "original_price": 4095900,
+            "discount_percentage": 10,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 12,
+            "sold_quantity": 156,
+            "rating": 4.4,
+            "reviews_count": 89,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_619547-MCO70064628521_062023-O.webp",
+                    "alt": "Sony Xperia 5 V"
+                }
+            ],
+            "description": "Sony Xperia 5 V con cámara profesional de 48MP y pantalla 4K HDR OLED de 6.1 pulgadas.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.1\" 4K HDR OLED"
+                },
+                {
+                    "name": "Cámara",
+                    "value": "48MP triple cámara"
+                },
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 2"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "sony_electronics_oficial",
+                "name": "Sony Electronics Oficial",
+                "reputation": "Platino",
+                "rating": 4.6,
+                "sales_count": 15670,
+                "location": "Tokio",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía Sony",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1040,
+            "title": "Sony WH-1000XM5 Auriculares Inalámbricos",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Sony",
+                "series": "WH-1000X"
+            },
+            "price": 1430900,
+            "original_price": 1635900,
+            "discount_percentage": 13,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 20,
+            "sold_quantity": 789,
+            "rating": 4.7,
+            "reviews_count": 456,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_794797-MLA50436072460_062022-O.webp",
+                    "alt": "Sony WH-1000XM5"
+                }
+            ],
+            "description": "Auriculares inalámbricos Sony WH-1000XM5 con la mejor cancelación de ruido de su clase.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "Líder de la industria"
+                },
+                {
+                    "name": "Batería",
+                    "value": "30 horas"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Hi-Res Audio Wireless"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "sony_electronics_oficial",
+                "name": "Sony Electronics Oficial",
+                "reputation": "Platino",
+                "rating": 4.6,
+                "sales_count": 15670,
+                "location": "Tokio",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía Sony",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1041,
+            "title": "Samsung Galaxy Z Flip5 5G 512GB Cream",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Samsung",
+                "series": "Galaxy Z"
+            },
+            "price": 4095900,
+            "original_price": 4505900,
+            "discount_percentage": 9,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 8,
+            "sold_quantity": 234,
+            "rating": 4.5,
+            "reviews_count": 145,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_802475-MLU77627701871_072024-O.webp",
+                    "alt": "Samsung Galaxy Z Flip5"
+                }
+            ],
+            "description": "Samsung Galaxy Z Flip5 plegable con pantalla externa Flex Window de 3,4 pulgadas.",
+            "features": [
+                {
+                    "name": "Pantalla principal",
+                    "value": "6.7\" Dynamic AMOLED 2X"
+                },
+                {
+                    "name": "Pantalla externa",
+                    "value": "3.4\" Super AMOLED"
+                },
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 2"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "samsung_premium_store",
+                "name": "Samsung Premium Store",
+                "reputation": "Diamante",
+                "rating": 4.8,
+                "sales_count": 5670,
+                "location": "Seúl",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Samsung Premium",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1042,
+            "title": "Samsung Galaxy Buds3 Pro Auriculares TWS",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Samsung",
+                "series": "Galaxy Buds"
+            },
+            "price": 1020900,
+            "original_price": 1143900,
+            "discount_percentage": 11,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 25,
+            "sold_quantity": 567,
+            "rating": 4.6,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_657305-MLA88931984056_082025-O.webp",
+                    "alt": "Samsung Galaxy Buds3 Pro"
+                }
+            ],
+            "description": "Samsung Galaxy Buds3 Pro con audio espacial 360 y cancelación adaptiva de ruido.",
+            "features": [
+                {
+                    "name": "Audio espacial",
+                    "value": "360 Audio"
+                },
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC adaptivo"
+                },
+                {
+                    "name": "Batería",
+                    "value": "30 horas"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "samsung_premium_store",
+                "name": "Samsung Premium Store",
+                "reputation": "Diamante",
+                "rating": 4.8,
+                "sales_count": 5670,
+                "location": "Seúl",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "1 año de garantía Samsung Premium",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1043,
+            "title": "Realme GT Neo 6 5G 256GB Cyber",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Realme",
+                "series": "GT Neo"
+            },
+            "price": 1758900,
+            "original_price": 1963900,
+            "discount_percentage": 10,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 22,
+            "sold_quantity": 345,
+            "rating": 4.4,
+            "reviews_count": 178,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_629171-MCO73595133272_122023-O.webp",
+                    "alt": "Realme GT Neo 6"
+                }
+            ],
+            "description": "Realme GT Neo 6 con Snapdragon 8s Gen 3 y carga súper rápida de 120W.",
+            "features": [
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8s Gen 3"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "12 GB"
+                },
+                {
+                    "name": "Carga rápida",
+                    "value": "120W SuperDart"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "realme_colombia_oficial",
+                "name": "Realme Colombia Oficial",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 12340,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-3 días hábiles"
+            },
+            "warranty": "1 año de garantía Realme",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1044,
+            "title": "Realme Buds Air 5 Pro Auriculares TWS",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Realme",
+                "series": "Buds Air"
+            },
+            "price": 364900,
+            "original_price": 446900,
+            "discount_percentage": 18,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 35,
+            "sold_quantity": 678,
+            "rating": 4.2,
+            "reviews_count": 234,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_939625-MCO85448643796_062025-O.webp",
+                    "alt": "Realme Buds Air 5 Pro"
+                }
+            ],
+            "description": "Auriculares inalámbricos Realme Buds Air 5 Pro con cancelación de ruido de 50dB.",
+            "features": [
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "50dB ANC"
+                },
+                {
+                    "name": "Batería",
+                    "value": "40 horas"
+                },
+                {
+                    "name": "Audio",
+                    "value": "Hi-Res certified"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "realme_colombia_oficial",
+                "name": "Realme Colombia Oficial",
+                "reputation": "Oro",
+                "rating": 4.5,
+                "sales_count": 12340,
+                "location": "Bogotá",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "2-3 días hábiles"
+            },
+            "warranty": "1 año de garantía Realme",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1045,
+            "title": "Nothing Phone (3) 5G 512GB Glyph Black",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Nothing",
+                "series": "Phone"
+            },
+            "price": 2660900,
+            "original_price": 2865900,
+            "discount_percentage": 7,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 15,
+            "sold_quantity": 234,
+            "rating": 4.5,
+            "reviews_count": 123,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_945956-MCO83648960208_042025-O.webp",
+                    "alt": "Nothing Phone (3)"
+                }
+            ],
+            "description": "Nothing Phone (3) con interfaz Glyph revolucionaria y diseño transparente único.",
+            "features": [
+                {
+                    "name": "Pantalla",
+                    "value": "6.7\" LTPO OLED"
+                },
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 3"
+                },
+                {
+                    "name": "Glyph Interface",
+                    "value": "Gen 2 mejorada"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 18
+                }
+            ],
+            "seller": {
+                "id": "nothing_store_latam",
+                "name": "Nothing Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 7890,
+                "location": "Londres",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía Nothing",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1046,
+            "title": "Nothing Ear (2) Auriculares Transparentes",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Nothing",
+                "series": "Ear"
+            },
+            "price": 610900,
+            "original_price": 733900,
+            "discount_percentage": 17,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 28,
+            "sold_quantity": 456,
+            "rating": 4.3,
+            "reviews_count": 189,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_730821-CBT77085835816_062024-O.webp",
+                    "alt": "Nothing Ear (2)"
+                }
+            ],
+            "description": "Auriculares inalámbricos Nothing Ear (2) con diseño transparente y cancelación de ruido.",
+            "features": [
+                {
+                    "name": "Diseño",
+                    "value": "Transparente único"
+                },
+                {
+                    "name": "Cancelación de ruido",
+                    "value": "ANC avanzado"
+                },
+                {
+                    "name": "Batería",
+                    "value": "36 horas"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "nothing_store_latam",
+                "name": "Nothing Store LATAM",
+                "reputation": "Oro",
+                "rating": 4.4,
+                "sales_count": 7890,
+                "location": "Londres",
+                "is_mercado_lider": false
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío gratis",
+                "estimated_days": "3-5 días hábiles"
+            },
+            "warranty": "1 año de garantía Nothing",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1047,
+            "title": "Asus ROG Phone 7 Ultimate Gaming 1TB Phantom Black",
+            "category": {
+                "main": "Celulares y Telefonía",
+                "sub": "Celulares y Smartphones",
+                "brand": "Asus",
+                "series": "ROG Phone"
+            },
+            "price": 4915900,
+            "original_price": 5325900,
+            "discount_percentage": 8,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 6,
+            "sold_quantity": 89,
+            "rating": 4.7,
+            "reviews_count": 67,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://http2.mlstatic.com/D_NQ_NP_662579-CBT82884313259_032025-O.webp",
+                    "alt": "Asus ROG Phone 7 Ultimate"
+                }
+            ],
+            "description": "Asus ROG Phone 7 Ultimate con Snapdragon 8 Gen 2 y sistema de refrigeración GameCool 7.",
+            "features": [
+                {
+                    "name": "Procesador",
+                    "value": "Snapdragon 8 Gen 2"
+                },
+                {
+                    "name": "Memoria RAM",
+                    "value": "18 GB"
+                },
+                {
+                    "name": "Refrigeración",
+                    "value": "GameCool 7"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 24
+                }
+            ],
+            "seller": {
+                "id": "asus_gaming_store",
+                "name": "Asus Gaming Store",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 4560,
+                "location": "Taipéi",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía ROG",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        },
+        {
+            "id": 1048,
+            "title": "Asus ROG Strix Go BT Gaming Headset",
+            "category": {
+                "main": "Audio",
+                "sub": "Auriculares",
+                "brand": "Asus",
+                "series": "ROG Strix"
+            },
+            "price": 733900,
+            "original_price": 815900,
+            "discount_percentage": 10,
+            "currency": "COP",
+            "condition": "Nuevo",
+            "available_quantity": 20,
+            "sold_quantity": 234,
+            "rating": 4.5,
+            "reviews_count": 145,
+            "images": [
+                {
+                    "id": "img1",
+                    "url": "https://dlcdnwebimgs.asus.com/gain/F82F8792-B3BE-4B58-B5EB-616ED8D52F39/w717/h525",
+                    "alt": "Asus ROG Strix Go BT"
+                }
+            ],
+            "description": "Auriculares gaming Asus ROG Strix Go BT con micrófono AI y conectividad inalámbrica.",
+            "features": [
+                {
+                    "name": "Conectividad",
+                    "value": "Bluetooth 5.0"
+                },
+                {
+                    "name": "Micrófono",
+                    "value": "AI Noise-Canceling"
+                },
+                {
+                    "name": "Batería",
+                    "value": "25 horas"
+                }
+            ],
+            "payment_methods": [
+                {
+                    "type": "credit_card",
+                    "name": "Tarjeta de crédito",
+                    "logo": "💳",
+                    "installments": 12
+                }
+            ],
+            "seller": {
+                "id": "asus_gaming_store",
+                "name": "Asus Gaming Store",
+                "reputation": "Platino",
+                "rating": 4.7,
+                "sales_count": 4560,
+                "location": "Taipéi",
+                "is_mercado_lider": true
+            },
+            "shipping": {
+                "free": true,
+                "type": "Envío express gratis",
+                "estimated_days": "1-2 días hábiles"
+            },
+            "warranty": "2 años de garantía ROG",
+            "created_at": "2025-12-01T14:00:00Z",
+            "updated_at": "2025-12-01T20:00:00Z"
+        }
+    ]
+}
